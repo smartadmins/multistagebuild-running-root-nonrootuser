@@ -16,7 +16,7 @@ Container images are often larger than necessary and may contain security vulner
 
 The project compares a standard Docker image with an optimized multi-stage image, demonstrates the differences between running containers as **root** and **non-root** users, analyzes resource utilization, and scans container images for vulnerabilities using **Trivy**.
 
----
+-------------------------
 
 # 🎯 Objectives
 
