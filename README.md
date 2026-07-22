@@ -1,4 +1,4 @@
-# Docker Multistage build 
+# Docker image Multistage build 
 # Docker container run as root user and non-root users
 # Security & Optimization
 
@@ -10,13 +10,15 @@ This project demonstrates Docker image optimization using enterprise best practi
 - Basic Docker Image - Completed
 - Multi-stage Build – Completed
 - Image Size Comparison - Completed
-- Root vs Non-root Containers
-- Resource Usage Analysis
+- Root vs Non-root Containers - completed
+- Resource Usage Analysis - Comleted
+- Scanning image with Trivy - not compelted
 
 #### Docker Build Command 
 docker build -f dockerfiles/Dockerfile.basic -t docker-basic .
 docker build -f dockerfiles/Dockerfile.multistage -t docker-multistage .
 docker images 
+
 ## Building Images for  root user and non root users
 docker build -f dockerfiles/Dockerfile.root -t node-root:v1 .
 docker build -f dockerfiles/Dockerfile.nonroot -t node-nonroot:v1 .
