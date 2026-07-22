@@ -48,20 +48,12 @@ docker-security-optimization/
 │   ├── Dockerfile.root
 │   └── Dockerfile.nonroot
 │
-├── screenshots/
-│   ├── basic-image.png
-│   ├── multistage-image.png
-│   ├── docker-images.png
-│   ├── trivy-scan.png
-│   ├── root-user.png
-│   ├── non-root-user.png
-│   └── docker-stats.png
-│
-├── reports/
-│   ├── image-comparison.md
-│   ├── trivy-report.md
-│   └── optimization-summary.md
-│
+├── sripts/
+|    |── reports
+|       |── trivy-report-basic.txt
+|       |── trivy-report-basic.txt    
+|── trivyscan.sh
+│   
 └── README.md
 ```
 
